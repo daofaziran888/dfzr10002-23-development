@@ -33,3 +33,31 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .error-text { color: #b42318; }
+
+/* ===== 定时任务预演 ===== */
+.rule-strip { display: flex; flex-wrap: wrap; gap: 14px; background: #eef4ff; border: 1px solid #c7d9ff; border-radius: 8px; padding: 8px 12px; font-size: 12px; color: #1e3a8a; margin-bottom: 12px; }
+.panel-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 12px; margin-bottom: 12px; }
+.panel { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+.panel h3 { margin: 0 0 10px; font-size: 14px; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; margin-bottom: 10px; }
+.form-grid input, .form-grid select, .filter-item select { width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; background: #fff; }
+.queue-item { border-bottom: 1px dashed var(--border); padding: 6px 0; font-size: 13px; }
+.queue-item:last-child { border-bottom: none; }
+.badge { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 10px; background: #e8f0fe; color: #1f4fbf; font-size: 11px; }
+.warn, .badge.warn { color: #b45309; background: #fef3c7; }
+.reason { font-size: 12px; color: #92400e; }
+.muted { color: var(--muted); font-size: 12px; }
+.rule-box { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 8px 12px; font-size: 13px; margin-bottom: 12px; }
+.rule-box ul { margin: 4px 0; padding-left: 18px; }
+.preview { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+.preview h3 { margin: 0 0 8px; font-size: 15px; }
+.preview h4 { margin: 14px 0 6px; font-size: 13px; }
+.preview-summary { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; margin-bottom: 10px; font-size: 13px; }
+.standards { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.selected-row { background: #eff6ff; }
+.run-card { border: 1px solid var(--border); border-radius: 8px; padding: 10px; margin-bottom: 8px; font-size: 13px; }
+.stage-row { display: flex; gap: 8px; margin: 8px 0; }
+.stage { padding: 2px 8px; border-radius: 6px; background: #f1f5f9; font-size: 12px; }
+.stage-已完成 { background: #dcfce7; color: #166534; }
+.stage-失败 { background: #fee2e2; color: #b91c1c; }
+.stage-执行中 { background: #dbeafe; color: #1d4ed8; }
